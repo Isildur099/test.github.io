@@ -1,0 +1,121 @@
+
+@media screen and (max-width: 1368px) {
+  .nav-right > li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-right {
+	 display: none;
+	}
+  .main-navigation {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .btn-menu {
+    display: block;
+    color: #ffffff;
+
+  }
+  .fa-align-justify:before {
+    font-size: 2rem;  
+  }
+
+  .header-central-content {
+    margin-top: 18rem;
+    padding-bottom: 5rem;
+
+  } 
+  .header-central-content > h1 {
+    font-size: 5rem;
+  }
+  .services {
+  	-webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  	justify-content: center !important;
+}
+  .services-item {
+    margin-right: 0;
+  }
+  .gallery {
+	  justify-content: center !important;
+  }
+  .team-worker {
+    margin-right: 2rem;
+  }
+  .post_item {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .posts-img {
+    width: 85%;
+  }
+  .posts-content {
+    width: 80%;
+    margin-top: 4rem;
+  }
+  .btn-info {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+
+  }
+
+/**/
+.clients-logo {
+    width: 100%;
+  }
+.clients_text {
+    width: 90%;
+  }
+
+/**/
+
+/**/
+  .communication-wrapper {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .communication {
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between !important;
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .commun__item {
+    flex-basis: 33%;
+    text-align: center;
+  }
+  .form {
+    width: 90%;
+  }
+}
+/**/
